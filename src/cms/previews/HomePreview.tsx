@@ -50,7 +50,7 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
   });
 
   const news = []
-  widgetsFor("news").mao((menber) => {
+  widgetsFor("news").map((menber) => {
     news.push({
       message: news?.getIn(['data', 'message']),
       description: news?.getIn(['data', 'description'])
