@@ -83,9 +83,7 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
         slugs={slugs}
       />
       <NewsletterSection
-        version={entry.getIn(['data', 'newsletter_version'])}
-        message={entry.getIn(['data', 'newsletter_message'])}
-        description={entry.getIn(['data', 'newsletter_description'])}
+  
       />
 
 
