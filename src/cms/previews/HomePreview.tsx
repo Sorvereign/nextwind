@@ -49,14 +49,14 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
     });
   });
 
-  const news = []
-  widgetsFor("news").map((menber) => {
+  /*const news = []
+  widgetsFor("news").map((news) => {
     news.push({
       message: news?.getIn(['data', 'message']),
       description: news?.getIn(['data', 'description'])
     })
   })
-
+*/
   return (
     <>
       <HeroSection
