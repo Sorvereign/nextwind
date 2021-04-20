@@ -45,3 +45,8 @@ export interface Team {
   position: string;
   image: string;
 }
+
+export interface Newsletter {
+  message: string;
+  description: string;
+}

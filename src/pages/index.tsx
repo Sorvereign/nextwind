@@ -8,6 +8,7 @@ import FeatureSection from 'components/home/FeatureSection';
 import StepsSection from 'components/home/StepsSection';
 import TeamSection from 'components/home/TeamSection';
 import PricingSection from 'components/home/PricingSection';
+import NewsletterSection from 'components/home/NewsletterSection';
 import { HomeAttributes } from 'interfaces/home';
 
 interface Props {
@@ -37,23 +38,16 @@ const HomePage: NextPage<Props> = ({ content }) => {
           version={attributes.steps_version}
           steps={attributes.steps}
           image={attributes.steps_image}
-        />
-        <PricingSection
-          title={attributes.pricing_title}
-          description={attributes.pricing_description}
-          plans={attributes.plans}
-        />
-        <TeamSection
-          version={attributes.team_version}
-          title={attributes.team_title}
-          description={attributes.team_description}
-          team={attributes.team}
-        />
+        />    
         <BlogSection
           version={attributes.blog_version}
           title={attributes.blog_title}
           description={attributes.blog_description}
           slugs={attributes.posts}
+        />
+        <NewsletterSection
+          message={attributes.message}
+          description={attributes.description}
         />
       </Layout>
     </>

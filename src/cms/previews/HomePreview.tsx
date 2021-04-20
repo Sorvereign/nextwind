@@ -5,6 +5,7 @@ import StepsSection from 'components/home/StepsSection';
 import TeamSection from 'components/home/TeamSection';
 import PricingSection from 'components/home/PricingSection';
 import BlogSection from 'components/home/BlogSection';
+import NewsletterSection from 'components/home/NewsletterSection';
 
 const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
   const features = [];
@@ -48,6 +49,14 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
     });
   });
 
+  const news = []
+  widgetsFor("news").mao((menber) => {
+    news.push({
+      message: news?.getIn(['data', 'message']),
+      description: news?.getIn(['data', 'description'])
+    })
+  })
+
   return (
     <>
       <HeroSection
@@ -67,23 +76,19 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
         image={entry.getIn(['data', 'steps_image'])}
         steps={steps}
       />
-      <PricingSection
-        title={entry.getIn(['data', 'pricing_title'])}
-        description={entry.getIn(['data', 'pricing_description'])}
-        plans={plans}
-      />
-      <TeamSection
-        version={entry.getIn(['data', 'team_version'])}
-        title={entry.getIn(['data', 'team_title'])}
-        description={entry.getIn(['data', 'team_description'])}
-        team={team}
-      />
       <BlogSection
         version={entry.getIn(['data', 'blog_version'])}
         title={entry.getIn(['data', 'blog_title'])}
         description={entry.getIn(['data', 'blog_description'])}
         slugs={slugs}
       />
+      <NewsletterSection
+        version={entry.getIn(['data', 'newsletter_version'])}
+        message={entry.getIn(['data', 'newsletter_message'])}
+        description={entry.getIn(['data', 'newsletter_description'])}
+      />
+
+
     </>
   );
 };

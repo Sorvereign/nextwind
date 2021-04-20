@@ -1,60 +1,36 @@
 ---
 hero_version: 1
-hero_title: Build a SaaS faster than ever
-hero_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-  do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo consequat.
+hero_title: Where creators create for creators
+hero_description: Kyiuba's main purpose is to promote and validate ideas, gather the right people and make it grow
 hero_image: img/serverless-saas.jpg
 feature_version: 1
-feature_title: Our amazing features
-feature_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-  minim veniam, quis nostrud exercitation ullamco.
+feature_title: How?
 features:
   - description: >+
-      Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy.
-      Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS
-      try-hard.
+      Build it and figure out how it can be sucessful.
 
-    name: Shooting Stars
+    name: Get an idea
   - description: >+
-      Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy.
-      Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS
-      try-hard.
+      Someone who can direct it and the team that can scale it
 
-    name: The Catalyzer
-  - description: Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-      taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug
-      VHS try-hard.
-    name: Neptune
+    name: Get the people
+  - description: With our help and the community
+    name: Keep it alive
 steps_version: 1
 steps:
   - description: >+
-      VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke
-      try-hard cliche palo santo offal.
+      Another perspective on how it can be done
 
-    name: STEP 1
+    name: How to compete
   - description: >+
-      Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb
-      health goth, vape typewriter.
+      Understand how others do it.
+      What they do and why it can be profitable
 
-    name: STEP 2
+    name: Market research
   - description: >+
-      Coloring book nar whal glossier master cleanse umami. Salvia +1 master
-      cleanse blog taiyaki.
+      A landing page and a demo with the main features of the project
 
-    name: STEP 3
-  - description: >+
-      VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke
-      try-hard cliche palo santo offal.
-
-    name: STEP 4
-  - description: >+
-      Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed
-      retro.
-
-    name: FINISH
+    name: Demo
 steps_image: img/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg
 pricing_title: Simple Pricing
 pricing_description: Start free. Upgrade whenever you want.

@@ -18,13 +18,17 @@
     "@stripe/stripe-js": "1.9.0",
     "@tailwindcss/typography": "0.2.0",
     "autoprefixer": "10.0.2",
+    "cms": "^1.8.1",
+    "components": "^0.1.0",
+    "css": "^3.0.0",
     "netlify-cms-app": "2.12.25",
     "next": "10.0.0",
     "postcss": "8.1.8",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-hook-form": "6.9.2",
-    "tailwindcss": "2.0.1"
+    "tailwindcss": "2.0.1",
+    "utils": "^0.3.1"
   },
   "devDependencies": {
     "@types/node": "14.11.5",

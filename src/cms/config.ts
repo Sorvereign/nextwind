@@ -2,7 +2,7 @@ export default {
   cms_manual_init: true,
   backend: {
     name: 'github',
-    repo: 'jakeprins/nextwind',
+    repo: 'Sorvereign/nextwind',
     branch: 'master',
   },
   media_folder: 'public/img',
@@ -117,7 +117,7 @@ export default {
               name: 'pricing_description',
               widget: 'string',
             },
-            {
+           /* {
               label: 'Plans',
               name: 'plans',
               widget: 'list',
@@ -143,8 +143,8 @@ export default {
                   widget: 'list',
                 },
               ],
-            },
-            {
+            },*/
+           /* {
               label: 'Team Section Version',
               name: 'team_version',
               widget: 'number',
@@ -188,7 +188,7 @@ export default {
                   widget: 'image',
                 },
               ],
-            },
+            },*/
             {
               label: 'Blog Section Version',
               name: 'blog_version',
@@ -217,6 +217,41 @@ export default {
               displayFields: ['title'],
               multiple: true,
             },
+            {
+              label: 'Newsletter Section Version',
+              name: 'newsletter_version',
+              widget: 'number',
+              value_type: 'int',
+              min: 1,
+              max: 3
+            },
+            {
+              label: 'Newsletter Message',
+              name: 'newsletter_message',
+              widget: 'string'
+            },
+            {
+              label: 'Newsletter Description',
+              name: 'newsletter_description',
+              widget: 'string'
+            },
+            {
+              label: 'Newsletter Form',
+              name: 'newsletter_form',
+              widget: 'form',
+              fields: [
+                {
+                  label: 'Newsletter Input',
+                  name: 'newsletter_input',
+                  widget: 'input'
+                },
+                {
+                  label: 'Newsletter Button ',
+                  name: 'newsletter_button',
+                  widget: 'button'
+                }
+              ]
+            }
           ],
         },
       ],

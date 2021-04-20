@@ -14,7 +14,9 @@ const Hero1: React.FC<Props> = ({ title, description, image }): JSX.Element => {
           </h1>
           <p className="mb-8 leading-relaxed">{description}</p>
           <div className="flex justify-center">
-            <button className="inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">
+            <button className="inline-flex px-6 py-2 text-lg text-white border-0 rounded focus:outline-none hover:bg-indigo-600" style={{ 
+              background:"linear-gradient(to right,#3498DB,#8d4ded)",
+            }}>
               Button
             </button>
             <button className="inline-flex px-6 py-2 ml-4 text-lg text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300">
