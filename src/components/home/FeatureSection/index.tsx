@@ -3,6 +3,8 @@ import Features1 from './Features1';
 import Features2 from './Features2';
 import Features3 from './Features3';
 
+import Button from '../../elements/Button';
+
 interface Props {
   title: string;
   description: string;
@@ -27,7 +29,7 @@ const FeatureSection: React.FC<Props> = ({
   const FeatureList = components[version] || components[1];
 
   return (
-    <section className="text-gray-700 body-font" id="features">
+    <section className="text-gray-700 body-font border-b border-t" id="features">
       <div className="container px-5 py-24 mx-auto">
         <div className="mb-20 text-center">
           <h1 className="mb-4 text-2xl font-bold text-gray-900 sm:text-3xl lg:text-4xl title-font">
@@ -41,9 +43,6 @@ const FeatureSection: React.FC<Props> = ({
           </div>
         </div>
         <FeatureList features={features} />
-        <button className="flex px-8 py-2 mx-auto mt-16 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">
-          Start Free
-        </button>
       </div>
     </section>
   );

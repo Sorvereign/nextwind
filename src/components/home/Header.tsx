@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import Button from '../elements/Button';
+
 const Header = (): JSX.Element => {
   return (
     <header className="text-gray-700 body-font">
@@ -18,13 +20,7 @@ const Header = (): JSX.Element => {
             href="#features"
             className="mr-5 text-base text-gray-600 hover:text-gray-800"
           >
-            Features
-          </a>
-          <a
-            href="#pricing"
-            className="mr-5 text-base text-gray-600 hover:text-gray-800"
-          >
-            Pricing
+            How
           </a>
           <a
             href="#team"
@@ -45,9 +41,7 @@ const Header = (): JSX.Element => {
             </button>
           </Link>
           <Link href="/signup">
-            <button className="inline-flex justify-center px-4 py-2 mt-4 text-sm font-medium text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-royal-blue-600 hover:bg-royal-blue-500 focus:outline-none focus:border-royal-blue-700 focus:shadow-outline-royal-blue active:bg-royal-blue-700 md:mt-0">
-              Sign Up
-            </button>
+            <Button title="Signup" className="inline-flex justify-center px-4 py-2 mt-4 text-sm font-medium text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-royal-blue-600 hover:bg-royal-blue-500 focus:outline-none focus:border-royal-blue-700 focus:shadow-outline-royal-blue active:bg-royal-blue-700 md:mt-0"/>
           </Link>
         </div>
       </div>

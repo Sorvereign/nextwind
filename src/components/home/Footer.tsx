@@ -30,15 +30,7 @@ const Footer = (): JSX.Element => {
               href="#features"
               className="text-base leading-6 text-gray-600 hover:text-gray-800"
             >
-              Features
-            </a>
-          </div>
-          <div className="px-5 py-2">
-            <a
-              href="#pricing"
-              className="text-base leading-6 text-gray-600 hover:text-gray-800"
-            >
-              Pricing
+              How
             </a>
           </div>
           <div className="px-5 py-2">
