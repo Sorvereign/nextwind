@@ -16,7 +16,7 @@ const PricingSection: React.FC<Props> = ({ message, description }) => {
             </h1>
           </div>
           <div className="flex justify-center mt-4 space-x-2">
-            <input type="email" name="EMAIL" class="form-control form-control-lg rounded p-3 text-gray-500" id="emailInput" placeholder="Your email address" id="mce-EMAIL" aria-describedby="basic-addon2" />
+            <input type="email" name="EMAIL" class="form-control form-control-lg rounded p-3 text-gray-500" />
             <button class="btn btn-primary text-white btn-lg-position-absolute text-nowrap p-2 border hover:bg-indigo-900 hover:bg-opacity-50 h-200 d-flex font-bold rounded" type="submit"
              id="mc-embedded-subscribe"
             >
