@@ -9,7 +9,7 @@ const PricingSection: React.FC<Props> = ({ message, description }) => {
     <section className="relative w-full">
       <div className="items-center">
         <div className="mt-16 bg-gray-200 items-center p-9" style={{background:"linear-gradient(to right,#3498DB,#8d4ded)"}}>
-        <form action="https://gmail.us1.list-manage.com/subscribe/post?u=5bd44dbf43c77c9f8d7616de7&amp;id=6b3a8e3c4e" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <form>
           <div className="mt-8 sm:mt-0 text-center text-white">
             <h1 className="text-2xl lg:text-3xl leading-none font-bold">
                 Be a plus in our newsletter
