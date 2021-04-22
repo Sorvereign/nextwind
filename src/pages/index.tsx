@@ -45,10 +45,6 @@ const HomePage: NextPage<Props> = ({ content }) => {
           description={attributes.blog_description}
           slugs={attributes.posts}
         />
-        <NewsletterSection
-          message={attributes.message}
-          description={attributes.description}
-        />
       </Layout>
     </>
   );
